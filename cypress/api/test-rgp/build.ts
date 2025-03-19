@@ -28,7 +28,7 @@ describe("API test", () => {
         })
     })
 
-    it(" Verify that weapons, armor, and upgrades are correctly assigned)", () => {
+    it("Verify that weapons, armor, and upgrades are correctly assigned)", () => {
         cy.request("GET", apiUrl).then((response) => {
             const thief = response.body.thief;
             const knight = response.body.knight;
