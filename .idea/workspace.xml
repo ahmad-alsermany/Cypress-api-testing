@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="141d8773-4d67-4db1-908c-ce47a81e5378" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cypress/api/api-auth/1-login-get-token.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/api/api-auth/2-get-auth-user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/api/api-auth/3-refresh-tokens.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/api/test-rgp/build.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/api/test-rgp/build.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,22 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/ahmadalsermany/WebstormProjects/api/cypress/api/api-auth",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.Cypress.executor": "Run",
-    "ts.external.directory.path": "/Users/ahmadalsermany/WebstormProjects/api/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ahmadalsermany/WebstormProjects/api/cypress/api/api-auth&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.Cypress.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/ahmadalsermany/WebstormProjects/api/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cypress/api/api-auth" />
@@ -109,7 +107,8 @@
       <workItem from="1741940658637" duration="7292000" />
       <workItem from="1741949475894" duration="9867000" />
       <workItem from="1741963198145" duration="354000" />
-      <workItem from="1742387628527" duration="4779000" />
+      <workItem from="1742387628527" duration="4886000" />
+      <workItem from="1742392687255" duration="11890000" />
     </task>
     <task id="LOCAL-00001" summary="jsonplaceholder api testen">
       <option name="closed" value="true" />
@@ -119,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741948867302</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Auth api">
+      <option name="closed" value="true" />
+      <created>1742392548691</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742392548691</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="jsonplaceholder api testen" />
-    <option name="LAST_COMMIT_MESSAGE" value="jsonplaceholder api testen" />
+    <MESSAGE value="Auth api" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auth api" />
   </component>
 </project>
